@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Digimon Recommendation</title>
+    <style>body{
+            background-image: url("https://i.dlpng.com/static/png/1838191--clouds-and-sky-png-1920_1080_preview.png");
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-family:"Montserrat";
+            }
+        .kolom {
+            background-color: white; 
+            border: none;
+            color: gray;
+            padding: 15px 80px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-family:"Montserrat";
+            }</style></style>
+            </style>
+    <!-- Masukin Dari Materialize -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/14d8201279.js"></script>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <center><img src="http://www.pngall.com/wp-content/uploads/2/Digimon-Logo-Transparent.png" width=600, height=220></center>
+    <br>
+    <br>
+    <br>
+    <center><form method="POST" action="http://localhost:5000/hasil">
+        <div class="row">
+            <div class="col s3"></div>
+            <div class="input-field col s6">
+                <input id="nama" type="text" class="validate" name="nama">
+                <label for="nama">Digimon Favoritku...</label>
+              </div>
+        </div>
+        <button class='btn waves-effect waves-light green' type="submit">
+            Submit
+            &nbsp;
+            <i class="fas fa-search"></i>
+        </button>
+    </form></center>
+</body>
+</html>
